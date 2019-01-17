@@ -22,15 +22,19 @@
     },
     {
       "title": "a stream made by me",
-      "description": "a description for the stream made by me",
-      "userId": "113849916261600699651",
+      "description": "hey hey I'm editing this now",
       "id": 5
     },
     {
       "title": "Programmatic Navigation",
-      "description": "you should not see this on this page",
-      "userId": "113849916261600699651",
+      "description": "this is a new description",
       "id": 6
+    },
+    {
+      "title": "Component Reuse",
+      "description": "sdgergerge",
+      "userId": "113849916261600699651",
+      "id": 7
     }
   ]
 }
