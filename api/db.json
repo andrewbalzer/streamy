@@ -1,0 +1,36 @@
+{
+  "streams": [
+    {
+      "title": "some title",
+      "description": "some description",
+      "id": 1
+    },
+    {
+      "description": "a stream description",
+      "title": "a stream title",
+      "id": 2
+    },
+    {
+      "title": "test stream",
+      "description": "test stream description",
+      "id": 3
+    },
+    {
+      "title": "test stream",
+      "description": "test stream description",
+      "id": 4
+    },
+    {
+      "title": "a stream made by me",
+      "description": "a description for the stream made by me",
+      "userId": "113849916261600699651",
+      "id": 5
+    },
+    {
+      "title": "Programmatic Navigation",
+      "description": "you should not see this on this page",
+      "userId": "113849916261600699651",
+      "id": 6
+    }
+  ]
+}
