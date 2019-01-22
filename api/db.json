@@ -1,40 +1,16 @@
 {
   "streams": [
     {
-      "title": "some title",
-      "description": "some description",
+      "title": "a new stream",
+      "description": "a stream description",
+      "userId": "113849916261600699651",
       "id": 1
     },
     {
-      "description": "a stream description",
-      "title": "a stream title",
-      "id": 2
-    },
-    {
-      "title": "test stream",
-      "description": "test stream description",
-      "id": 3
-    },
-    {
-      "title": "test stream",
-      "description": "test stream description",
-      "id": 4
-    },
-    {
-      "title": "a stream made by me",
-      "description": "hey hey I'm editing this now",
-      "id": 5
-    },
-    {
-      "title": "Programmatic Navigation",
-      "description": "this is a new description",
-      "id": 6
-    },
-    {
-      "title": "Component Reuse",
-      "description": "sdgergerge",
+      "title": "Official Stream Title",
+      "description": "This is a description for the Official Stream Title",
       "userId": "113849916261600699651",
-      "id": 7
+      "id": 2
     }
   ]
 }

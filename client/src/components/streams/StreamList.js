@@ -14,7 +14,7 @@ class StreamList extends React.Component {
       return (
         <div className="right floated content">
           <Link to={`/streams/edit/${stream.id}`} className="ui button primary">Edit</Link>
-          <button className="ui button negative">Delete</button>
+          <Link to={`/streams/delete/${stream.id}`} className="ui button negative">Delete</Link>
         </div>
       );
     }
@@ -24,11 +24,13 @@ class StreamList extends React.Component {
     return this.props.streams.map(stream => {
       return (
         <div className="item" key={stream.id}>
-          { this.renderAdmin(stream) }
+          {this.renderAdmin(stream)}
           <i className="large middle align icon camera" />
           <div className="content">
-            { stream.title }
-            <div className="description">{ stream.description }</div>
+            <Link to={`/streams/${stream.id}`} className="header">
+              {stream.title}
+            </Link>
+            <div className="description">{stream.description}</div>
           </div>
         </div>
       );
